@@ -1,0 +1,36 @@
+/* Add a black background color to the top navigation */
+.bar {
+  background-color: rgba(18, 185, 115, 0.568);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.bar a {
+  float: left;
+  color: #086b99cc;
+  padding:  16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.bar a:hover {
+  background-color: rgb(22, 208, 224);
+  color: black;
+  text-decoration: underline;
+}
+.bar a.left{
+    float: right !important;
+}
+footer {
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  background-color: dimgray;
+  color: #fff;
+  position: fixed; bottom: 0; width: 100%;
+}
+body{
+
+  margin:0%;
+}
