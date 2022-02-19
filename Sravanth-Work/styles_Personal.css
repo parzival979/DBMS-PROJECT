@@ -1,0 +1,132 @@
+body{
+    background-image: url("graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: blue;
+    background-color: red;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header p{
+    font-size: 25px;
+}
+
+#goToHome{
+    box-sizing: border-box;
+    padding-top: 30px;
+    float: left;
+    width: 100px;
+    height: 83.88px;
+    color: red;
+    background-color: blue;
+}
+
+#goToHome:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    box-sizing: border-box;
+    position: relative;
+    top: 83.88px;
+    width: 100%;
+}
+
+#name{
+    margin-left: 180px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+    color: greenyellow;
+    display: inline-block;
+    width: 600px;
+    font-size: 50px;
+}
+
+main section figure{
+    margin-right: 150px;
+    margin-top: 30px;
+    display: inline-block;
+    float: right;
+    width: 300px;
+}
+
+.fields{
+    font-family: 'Pacifico', cursive;
+    color: greenyellow;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+#Status{
+    margin-top: 140px;
+}
+
+#statusData{
+    text-align: center;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+}
+#statusData a{
+    color: white;
+}
+
+section ul{
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+#about{
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 120px;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    background-color: red;
+    color: black;
+}
+
+#goToTop{
+    position: relative;
+    top: 30px;
+    float: left;
+    width: 175px;
+}
+
+#eMail{
+    float: right;
+}
+
+#gitHub{
+    position: relative ;
+    top: 30px;
+}
+
+
+
+

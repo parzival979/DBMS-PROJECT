@@ -1,0 +1,113 @@
+#heading{
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+body{
+    background-image: url("./DATA/henrik-heitmann-wQ1UIvNfgYQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    font-family: 'Luxurious Script', cursive;
+    font-size: 50px;
+    color: red;
+}
+
+main section figure{
+    margin-top: 60px;
+    margin-left: 300px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+main section article{
+    margin-left: 70px;
+    width: 700px;
+    display: inline-block;
+}
+
+.name{
+    font-family: 'Tangerine', cursive;
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+.data{
+    margin: 25px 0;
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+}
+
+.goToPersonal{
+    margin: 20px 0 30px;
+    font-size: 40px;
+    font-family: 'Cormorant', serif;
+    color: white;
+}
+
+.goToPersonal:visited,.goToPersonal:active,.goToPersonal:link{
+    color: #000000;
+}
+
+.name:hover,.data:hover{
+    color: red;
+}
+
+.goToPersonal:hover{
+    color: yellow;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+#goToTop{
+    float: left;
+    font-size: 35px;
+    color: blue;
+    margin-left: 0;
+}
+
+#goToGithubRepo{
+    float: right;
+    font-size: 35px;
+    color: blue;
+    margin-right: 0;
+}
+
+#goToTop:hover,#goToGithubRepo:hover{
+    color: black;
+    background-color: white;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
