@@ -6,12 +6,19 @@ html {
   font-size: 16px;
   color: #f0f0f0;
   box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
+  background-image: url(background_img.svg);
+  background-size: cover;    
+  background-attachment: scroll;   
+  margin: 0 0 0 0;
+  padding: 0;              
 }
 
 .navbar ul {
@@ -28,7 +35,7 @@ body {
   left: 0;
   justify-content: space-between;
   font-family: 'JetBrains Mono', monospace;
-  width: 100%;
+  width: 100vw;
   height: 5rem;
   background: #282a35;
 }
@@ -46,7 +53,7 @@ body {
 }
 
 .navbar a:hover {
-  background: #f14d87;
+  background: #05b675;
   color: #282a35;
 }
 
@@ -70,17 +77,113 @@ body {
   margin-right: 2rem;
 }
 
+body > h1{
+  margin : 6rem 0 0 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body > h2{
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.main-container{
+  width: 90vw;
+  height: 150rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.main-rows{
+  width: 80vw;
+  height: 25rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+figure{
+  width: 20rem;
+  height: 20rem;
+  padding: 0;
+  margin: 1.5rem 1.5rem;
+}
+
+.photo{
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10px solid #05b675;
+  width: 20rem;
+  height: 20rem;
+}
+
+.summary {
+  width: 50rem;
+  height: 25rem;
+  font-size: 1.4rem;
+  margin-left: 0rem;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.summary > h4 {
+  text-align-last: right;
+  color: #fff;
+}
+
+.summary > h4 a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.summary a:hover{
+  color:#282a35;
+  background-color: #f2eeee;
+}
+
+.summary > h3 {
+  text-align-last: center;
+}
+
+.main-rows:hover{
+  background-color: rgba(73,206,78,0.5);
+  border-radius: 1rem;
+}
+
+.name{
+  line-height: 1rem;
+}
+
+.data{
+  line-height: 1rem;
+}
+
+
 footer {
   font-weight: 400;
   display: flex;
-  position: absolute;
-  bottom: 0;
-  height: 6rem;
-  width: 100%;
   left: 0;
-  padding-top: 1rem;
-  background: #13132a;
+  height: 10rem;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
   flex-direction: column;
+  background: #13132a;
   justify-content: space-around;
 }
 
@@ -107,5 +210,18 @@ footer {
 
 .contact-details:hover {
   transform : scale(1.5);
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+  transition: all .2s;
 }
 
