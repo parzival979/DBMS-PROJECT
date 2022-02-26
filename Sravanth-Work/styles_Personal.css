@@ -1,5 +1,5 @@
 body{
-    background-image: url("graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
+    background-image: url("../DATA/BACKGROUNDS/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,7 +58,7 @@ main{
 
 main section figure{
     margin-left: 150px;
-    alignment: center;
+    /*alignment: center;*/
     margin-right: 150px;
     margin-top: 30px;
     display: inline-block;
@@ -116,9 +116,9 @@ footer{
 
 #goToTop{
     position: relative;
-    top: 30px;
+    top: 20px;
     float: left;
-    width: 175px;
+    width: 100px;
 }
 
 #eMail{
@@ -127,9 +127,9 @@ footer{
 
 #gitHub{
     position: relative ;
-    top: 30px;
+    top: 20px;
 }
 
-
-
-
+.fa-2x {
+    vertical-align: middle;
+}
