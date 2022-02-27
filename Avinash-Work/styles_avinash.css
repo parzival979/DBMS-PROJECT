@@ -59,7 +59,7 @@ h2{
 }
 
 body{
-    background-image: url('Background_personal.png');
+    background-image: url('../DATA/BACKGROUNDS/Background_personal.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
