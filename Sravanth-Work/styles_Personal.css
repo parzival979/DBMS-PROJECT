@@ -6,6 +6,13 @@ body{
     overflow: scroll;
 }
 
+#image{
+    border: black solid 6px;
+    width: 300px;
+    height: 300px;
+    border-radius: 85%;
+}
+
 header{
     position: absolute;
     top: 0;
