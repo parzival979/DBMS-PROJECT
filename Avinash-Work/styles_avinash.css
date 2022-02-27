@@ -37,6 +37,14 @@ h2{
     color: white;
 }
 
+.fa-home{
+    color: black;
+}
+
+.fa-big{
+    font-size: 3em !important;
+}
+
 .fa-linkedin:hover{
     transform: translateY(16px);
 }
