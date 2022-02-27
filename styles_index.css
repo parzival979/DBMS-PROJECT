@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   background-image: url(DATA/BACKGROUNDS/background_img.svg);
   background-size: cover;    
-  background-attachment: scroll;   
+  background-attachment: scroll;
   margin: 0 0 0 0;
   padding: 0;              
 }
