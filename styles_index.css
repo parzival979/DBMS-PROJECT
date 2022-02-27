@@ -230,3 +230,8 @@ footer {
   transition: all .2s;
 }
 
+#Alternate_home{
+  position: relative;
+  top: 20px;
+}
+

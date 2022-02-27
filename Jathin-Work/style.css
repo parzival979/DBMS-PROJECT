@@ -1,3 +1,15 @@
+header{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ff910081 ;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     background: #ff910081;
     background-size: cover;
@@ -11,18 +23,19 @@ header p{
 }
 
 #goToHome{
+    border: solid blue 2px;
     box-sizing: border-box;
     padding-top: 30px;
     float: left;
     width: 100px;
     height: 83.88px;
-    color: red;
-    background-color: blue;
+    color: #ff910081;
+    background-color: white;
 }
 
 #goToHome:hover{
-    background-color: white;
-    color: black;
+    background-color: #ff910081;
+    color: white;
 }
 
 main{
@@ -143,15 +156,7 @@ section ul{
     transform: rotate(45deg) translate(-8px, -8px) ;
   }
 
-header{
-    position: absolute;
-    left: 0;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    background-color: rgb(49, 50, 50);
-    color: black;
-}
+
 
 footer{
     position: absolute;
