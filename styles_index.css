@@ -15,7 +15,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
-  background-image: url(background_img.svg);
+  background-image: url("./DATA/BACKGROUNDS/background_img.svg");
   background-size: cover;    
   background-attachment: scroll;
   margin: 0 0 0 0;
