@@ -3,6 +3,7 @@
 <head>
     <title>Sasank's Personal Page</title>
     <link href="styles_Personal.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Cormorant:ital,wght@1,300&family=Italianno&family=Lobster&family=Lobster+Two&family=Luxurious+Script&family=Neonderthaw&family=Noto+Sans&family=Pacifico&family=Raleway:wght@100&family=Redressed&family=Roboto:wght@100;700&family=Shizuru&family=Tangerine&family=The+Nautigal&display=swap" rel="stylesheet">
@@ -10,26 +11,25 @@
 <script src="https://kit.fontawesome.com/c38b5f03c5.js" crossorigin="anonymous"></script>
 <body>
 
-
 <header id = 'heading'>
-    <a id="goToHome" href="../index.html" title = "Home" target=""><i class="fas fa-home fa-2x"></i></a>
-    <p>Personal Page</p>
+    <a target = "_self" id="goToHome" href="../index.html" title = "Home" target="_blank"><i class="fas fa-home fa-2x"></i></a>
+    <p id="Description">Personal Page</p>
 </header>
 
 <main>
-    <section>
+    <div class = "grid-container">
+      <div class = "grid-child 1">
         <h1 id="name">Sasank Madati</h1>
-        
-        <figure>
-            <img id='image' alt="Sasank's Image" src="../DATA/Profile%20Photos/msd_pfp.jpg" width="300px" height="300px">
-        </figure>
         <h2 id = "p1">
             Hi, My name is sasank and i am a 2nd year CS student in <a href="http://www.iiitdm.ac.in/" target="_blank">IIITDM Kancheepuram</a>. My professional interests are Cyber Security, Web and Game development. I am still exploring these areas so not decided a specific field yet. Read on to know more about me.
         </h2>
-    </section>
-    <section>
-        
-    </section>
+      </div> 
+      <div class = "grid-child 2">
+        <figure>
+          <img id='image' alt="Sasank's Image" src="../DATA/Profile%20Photos/msd_pfp.jpg" width="300px" height="300px">
+        </figure>
+      </div>
+    </div>
     <section>
         <h1 class="fields">My Educational Qualifications</h1>
         <ul>
@@ -41,7 +41,7 @@
         </ul>
     </section>
     <section>
-        <h1 class="fields">technical competencies</h1>
+        <h1 class="fields">Technical competencies</h1>
             <p id="p2">I am fairly confident in the following languages:</p>
         <ul>
             <li>C</li>
