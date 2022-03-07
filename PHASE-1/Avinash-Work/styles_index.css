@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  color: #f0f0f0;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  background-image: url("../DATA/BACKGROUNDS/background_img.svg");
+  background-size: cover;    
+  background-attachment: scroll;
+  margin: 0 0 0 0;
+  padding: 0;              
+}
+
+.navbar ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0 0 0 0;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  font-family: 'JetBrains Mono', monospace;
+  width: 100vw;
+  height: 5rem;
+  background: #282a35;
+}
+
+.navbar a {
+  text-transform: uppercase;
+  display: flex;
+  color: #f0f0f0;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 0;
+  height: 5rem;
+  text-decoration: none;
+  padding: 0 1rem 0 1rem;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar a:hover {
+  background: #05b675;
+  color: #282a35;
+}
+
+.left-column {
+  display: flex;
+  height: inherit;
+  margin-left: 2rem;
+  margin-right: 0rem;
+}
+
+.left-column li,
+.right-column li {
+  margin: 0 1rem 0 1rem;
+  padding: 0;
+}
+
+.right-column {
+  display: flex;
+  height: inherit;
+  margin-left: 0rem;
+  margin-right: 2rem;
+}
+
+body > h1{
+  margin : 6rem 0 0 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body > h2{
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.main-container{
+  width: 90vw;
+  height: 150rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+.main-container a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-rows{
+  width: 80vw;
+  height: 25rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 300ms ease-in-out;
+}
+
+figure{
+  width: 20rem;
+  height: 20rem;
+  padding: 0;
+  margin: 1.5rem 1.5rem;
+}
+
+.photo{
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10px solid #05b675;
+  width: 20rem;
+  height: 20rem;
+}
+
+.summary {
+  width: 50rem;
+  height: 25rem;
+  font-size: 1.4rem;
+  margin-left: 0rem;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.summary > h4 {
+  text-align-last: right;
+  font-family: 'Teko', sans-serif;
+  color: #fff;
+}
+
+.summary > h3 {
+  text-align: center;
+  background-size: 100%;
+  margin: 0;
+  font-size: 2rem;
+  vertical-align: bottom;
+  top: 0.5rem;
+  height: 2rem;
+  font-family: 'Teko', sans-serif;
+}
+
+.main-rows:hover{
+  background-color: rgba(73,206,78,0.5);
+  border-radius: 1rem;
+}
+
+.name{
+  line-height: 1rem;
+}
+
+.data{
+  line-height: 2rem;
+}
+
+
+footer {
+  font-weight: 400;
+  display: flex;
+  left: 0;
+  height: 10rem;
+  width: 100vw;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  flex-direction: column;
+  background: #13132a;
+  justify-content: space-around;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-column{
+  width: fit-content;
+  height: fit-content;
+  display: block;
+}
+
+.contact-details {
+  text-shadow: 2px 2px 1px #1f1f1f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.6rem 0rem 0 0;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform : scale(1.5);
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+  transition: all .2s;
+}
+
+#Alternate_home{
+  position: relative;
+  top: 20px;
+}
+
