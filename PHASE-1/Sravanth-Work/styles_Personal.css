@@ -124,7 +124,7 @@ footer{
     position: relative;
     top: 20px;
     float: left;
-    width: 100px;
+    padding-right: 30px;
 }
 
 #eMail{
@@ -132,9 +132,18 @@ footer{
 }
 
 #gitHub{
+    float: left;
     position: relative ;
     top: 20px;
+    padding-right: 30px;
 }
+
+#resume{
+    position: relative;
+    float: left;
+    top: 30px;
+}
+
 
 .fa-2x {
     vertical-align: middle;
