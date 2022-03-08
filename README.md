@@ -1,4 +1,4 @@
-# DBMS-
+# DBMS-Project
 ## Website-Url:- https://parzival979.github.io/DBMS-PROJECT/
 ## Objectives
 1. In the phase 2, you need to design a web application.
