@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Cormorant:ital,wght@1,300&family=Italianno&family=Lobster&family=Lobster+Two&family=Luxurious+Script&family=Neonderthaw&family=Noto+Sans&family=Pacifico&family=Raleway:wght@100&family=Redressed&family=Roboto:wght@100;700&family=Shizuru&family=Tangerine&family=The+Nautigal&display=swap" rel="stylesheet">
 </head>
+<script src="style.js"></script>
 <script src="https://kit.fontawesome.com/c38b5f03c5.js" crossorigin="anonymous"></script>
 <body>
 
@@ -20,8 +21,8 @@
     <div class = "grid-container">
       <div class = "grid-child 1">
         <h1 id="name">Sasank Madati</h1>
-        <h2 id = "p1">
-            Hi, My name is sasank and i am a 2nd year CS student in <a href="http://www.iiitdm.ac.in/" target="_blank">IIITDM Kancheepuram</a>. My professional interests are Cyber Security, Web and Game development. I am still exploring these areas so not decided a specific field yet. Read on to know more about me.
+        <h2 id = "intro">
+            Hi, My name is sasank and i am a 2nd year CS student in <a href="http://www.iiitdm.ac.in/" target="_blank">IIITDM Kancheepuram</a>. My professional interests are Cyber Security, Web and Game development. I am still exploring these areas so not decided a specific field yet. Click on the titles to know more about me.
         </h2>
       </div> 
       <div class = "grid-child 2">
@@ -30,41 +31,65 @@
         </figure>
       </div>
     </div>
-    <section>
-        <h1 class="fields">My Educational Qualifications</h1>
-        <ul>
-            <li>10th CBSE - SCORE-448/500</li>
-            <li>Intermediate - Final Score-961/1000</li>
-            <li>JEE Mains - Percentile: 97.98</li>
-            <li>JEE Advanced, AIR-22265</li>
-            <li>B.Tech - GPA: 9.08(As of 3rd Semester)</li>
-        </ul>
-    </section>
-    <section>
-        <h1 class="fields">Technical competencies</h1>
-            <p id="p2">I am fairly confident in the following languages:</p>
-        <ul>
-            <li>C</li>
-            <li>C++</li>
-            <li>Python</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SQL</li>
-        </ul>
-    </section>
-    <section>
-        <h1 class="fields">Professional Interests</h1>
-        <ul>
-            <li>Cyber Security</li>
-            <li>Web Development</li>
-            <li>Game Development</li>
-            <li>Machine Learning</li>
-        </ul>
-    </section>
-    <section>
-        <h1 class="fields">About me</h1>
-        <p id="about">Apart from my studies and professional interests I like to play video games(I spent most amount of time on this), read novels/manga, Watch anime and web series. I also love playing cricket, volleyball and football but I havent played these in a while </p>
-    </section>
+
+    <div class="wrapper1">
+        <div class="edu">
+            <input type="checkbox" id="head">
+            <label for = "head" class = "fields"> My Educational Qualifications</label>
+            <div class="Qualifications">
+                <ul>
+                    <li>10th CBSE - SCORE-448/500</li>
+                    <li>Intermediate - Final Score-961/1000</li>
+                    <li>JEE Mains - Percentile: 97.98</li>
+                    <li>JEE Advanced, AIR-22265</li>
+                    <li>B.Tech - GPA: 9.08(As of 3rd Semester)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="wrapper2">
+        <div class="TC">
+            <input type="checkbox" id="head2">
+            <label for = "head2" class="fields">Technical competencies </label>
+            <div class="lang">
+                <p>I am fairly confident in the following languages:</p>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper3">
+        <div class="PI">
+            <input type="checkbox" id="head3">
+            <label for = "head3" class="fields">Professional Interests</label>
+            <div class="int">
+                <ul>
+                    <li>Cyber Security</li>
+                    <li>Web Development</li>
+                    <li>Game Development</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper4">
+        <div class="AM">
+            <input type="checkbox" id="head4">
+            <label for = "head4" class="fields">About me</label>
+            <div class="me">
+                <p>Apart from my studies and professional interests I like to play video games(I spent most amount of time on this), read novels/manga, Watch anime and web series. I also love playing cricket, volleyball and football but I havent played these in a while </p>
+            </div>
+        </div>
+    </div>
+
 </main>
 
 <footer>
