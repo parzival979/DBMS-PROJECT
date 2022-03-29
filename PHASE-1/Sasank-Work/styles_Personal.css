@@ -5,14 +5,17 @@ body{
     background-attachment: fixed;
     overflow: scroll;
 }
-
+.wrapper1,.wrapper2,.wrapper3,.wrapper4{
+    display: flex;
+    justify-self: center;
+}
 #goToHome{
     box-sizing: border-box;
     padding: 30px;
     float: left;
     width: 100px;
     height: 80px;
-    color:aquamarine;
+    color:#55ACEE;
     background-color:#303030;
 }
 
@@ -26,7 +29,8 @@ main{
     position: relative;
     width: 100%;
 }
-#p1{
+
+#intro{
     margin-left: 80px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -36,15 +40,7 @@ main{
     font-size: 22px;
     text-align: left;
 }
-#p2{
-    margin-left: 80px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top: 0px;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    text-align: left;
-}
+
 #name{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -53,6 +49,298 @@ main{
     width: 350px;
     font-size: 50px;
     text-align: left;
+    
+}
+
+.edu {
+    padding-left: 80px;
+    max-width: 700px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.edu label:hover{
+    background-color:#fff;
+}
+
+.edu label {
+    position: relative;
+    font-size: 30px;
+    font-weight:600 ;
+    background: transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    color:#55ACEE;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+}
+
+.edu input{
+    display: none;
+}
+.edu input:checked + label:after{
+    transform: rotate(90deg);
+}
+.edu label:after {
+    content: " ";
+    position:absolute;
+    right: 15px;
+    top:20px;
+    width: 20px;
+    height: 20px;
+    background: url(arrow.png) no-repeat 0 0 ;
+    transition: all 0.3s ease;
+}
+
+.Qualifications{
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 50px;
+    position:absolute;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.edu input:checked ~ .Qualifications{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    max-height: 300px;
+    position:relative;
+    background:#fff ;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    opacity: 1;
+    top: 0;
+
+}
+
+.Qualifications ul{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.TC {
+    padding-left: 80px;
+    max-width: 1000px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.TC label:hover{
+    background-color:#fff;
+}
+
+.TC label {
+    position: relative;
+    font-size: 30px;
+    font-weight:600 ;
+    background: transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    color:#55ACEE;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.TC input{
+    display: none;
+}
+.TC input:checked + label:after{
+    transform: rotate(90deg);
+}
+.TC label:after {
+    content: " ";
+    position:absolute;
+    right: 15px;
+    top:20px;
+    width: 20px;
+    height: 20px;
+    background: url(arrow.png) no-repeat 0 0 ;
+    transition: all 0.5s ease;
+}
+
+.lang{
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 50px;
+    position: absolute;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.TC input:checked ~ .lang{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    max-height: 400px;
+    padding-top: 20px;
+    background:#fff ;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    opacity: 1;
+    top: 0;
+
+}
+
+.lang ul{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+.PI {
+    padding-left: 80px;
+    max-width: 700px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.PI label:hover{
+    background-color:#fff;
+}
+
+.PI label {
+    position: relative;
+    font-size: 30px;
+    font-weight:600 ;
+    background: transparent;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    color:#55ACEE;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.PI input{
+    display: none;
+}
+.PI input:checked + label:after{
+    transform: rotate(90deg);
+}
+.PI label:after {
+    content: " ";
+    position:absolute;
+    right: 15px;
+    top:20px;
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease;
+}
+
+.int{
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 50px;
+    position: absolute;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.PI input:checked ~ .int{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    max-height: 300px;
+    position: relative;
+    padding-top: 20px;
+    background:#fff ;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    opacity: 1;
+    top: 0;
+
+}
+
+.int ul{
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
+.AM {
+    padding-left: 80px;
+    max-width: 700px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.AM label:hover{
+    background-color:#fff;
+}
+
+.AM label {
+    position: relative;
+    font-size: 30px;
+    font-weight:600 ;
+    background: transparent;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    color:#55ACEE;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px 0;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.AM input{
+    display: none;
+}
+.AM input:checked + label:after{
+    transform: rotate(90deg);
+}
+.AM label:after {
+    content: " ";
+    position:absolute;
+    right: 15px;
+    top:20px;
+    width: 20px;
+    height: 20px;
+    background: url(arrow.png) no-repeat 0 0 ;
+    transition: all 0.3s ease;
+}
+
+.me{
+    overflow: hidden;
+    border-radius: 4px;
+    line-height: 50px;
+    position: absolute;
+    top: -100%;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.AM input:checked ~ .me{
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 20px;
+    max-height: 300px;
+    position: relative;
+    padding-top: 20px;
+    background:#fff ;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1),0 4px 11px 0 rgba(0,0,0, 0.08);
+    opacity: 1;
+    top: 0;
+
+}
+
+.me p{
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 main section figure{
@@ -66,13 +354,13 @@ main section figure{
 .fields{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 242, 255);
-    margin-top: 150px;
-    margin-left: 40px;
-    font-size: 30px;
+    margin-top: 50px;
+    font-size: 35px;
     text-align: left;
 }
 
 .grid-container{
+    margin-left: 50px;
     margin-top: 150px;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -114,7 +402,7 @@ header{
     top: 0;
     left: 0;
     color: #ffffff;
-    background-image: linear-gradient(to right,#282828,#A8A8A8);
+    background-image: linear-gradient(to right,#282828,#696969);
     text-align: center;
     width: 100%;
     height: 80px;
@@ -140,7 +428,7 @@ footer{
 }
 
 #goToTop{
-    color:crimson;
+    color:#55ACEE;
     padding-left: 15px;
     position: relative;
     top:  20px;
@@ -156,6 +444,7 @@ footer{
     text-align: center;
     text-decoration: none;
   }
+
 .fa-instagram{
     background: #3B5998;
     color: white;
@@ -165,6 +454,10 @@ footer{
 .fa-google {
     background: #55ACEE;
     color: white;
+}
+
+#image{
+    border-radius: 20px;
 }
 #eMail{
     padding: 10px;
