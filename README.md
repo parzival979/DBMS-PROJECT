@@ -1,6 +1,9 @@
 # DBMS-Project
 ## Website-Url:- https://parzival979.github.io/DBMS-PROJECT/
-## INFO :- THIS IS THE PHASE - 1 OF SEMESTER 4 DBMS PROJECT WHERE WE HAVE TO BUILD A WEBSITE USING BASIC HTML AND CSS WHERE WE HAVE TO DISPLAY INFOR ABOUT OURSELVES
+
+
+## INFO 
+#### This is the Phase-1 of semester-4 DBMS Project where we have to display information about ourselves using a website built with basic HTML and CSS
 
 ## Collaborators
 #### Sravanth Chowdary Potluri
